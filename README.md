@@ -15,5 +15,3 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
-
-![image](https://cloud.githubusercontent.com/assets/22466500/26215734/ba268e76-3bbe-11e7-89eb-2dd76335b2fd.png)
