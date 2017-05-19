@@ -10,13 +10,10 @@
 }
 
 
-Using jQuery and an appropriate selector, register an event handler to the
-textarea element for the form inside of the .new-tweet section.
-
-Best event to detect the correct length of the input update the counter?
-
 
 */
+
+
 .new-tweet {
   border-radius: 10px;
   background-color: #eee;
@@ -43,11 +40,6 @@ textarea {
 }
 
 
-/*
 
 
 
-
-
-
-*/
