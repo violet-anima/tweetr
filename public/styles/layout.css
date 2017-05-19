@@ -20,16 +20,21 @@ html {
  */
 
 body {
-  margin: 100;
   color: #e8fdff;
-  background-color: white;
+  background-color: #eee;
+  margin-left: 40%;
   display: table-cell;
   vertical-align: middle;
-  horizontal-align: middle;
-  height: 100%;
+  /*horizontal-align: middle;*/
+  /* height: 100%; */
 
 }
 
+.container {
+  margin-left: 110%;
+  padding: 10px;
+  background-color: #fff;
+}
 
 
 
@@ -142,7 +147,7 @@ body {
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
- */
+
 
 #nav-bar .logo {
   height: 80px;
@@ -166,3 +171,4 @@ main {
 }
 
 
+*/

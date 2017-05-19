@@ -1,0 +1,80 @@
+/*.tweets-container {
+
+}*/
+/*.tweets-container {
+  color: darkblue;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #eee;
+  padding: 0.2em;
+  width: 350px;
+  max-width: 350px;
+}
+
+.tweets-container header {
+  height: 100px;
+  border-bottom: 5px #fff;
+}
+
+.img {
+  border-radius: 50%;
+  background-color: silver;
+  height: 70px;
+  width: 70px;
+
+}
+
+.img, .name {
+  display: inline-block;
+}
+.name {
+  color: #222;
+}
+
+*/
+
+.tweeter {
+  border: 1px #eee solid;
+  width: 400px;
+  /*padding: 10px;*/
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.tweeter header {
+  width: 100%;
+  background-color: #eee;
+}
+
+.tweeter header img, .tweeter header h3 {
+  display: inline-flex;
+  color: darkblue;
+  padding: 2px;
+}
+
+.tweeter header img{
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.tweetBody {
+  background-color: #FFF;
+  padding: 30px;
+  color: #000;
+  padding: 10px;
+}
+
+.handler {
+  float: right;
+  margin-right: 15px;
+  color: darkblue;
+}
+.feets {
+  border-top: 1px solid gray;
+  padding: 10px;
+  color: darkblue;
+}
+
+.on-tweet {
+  border-color: #000;
+}

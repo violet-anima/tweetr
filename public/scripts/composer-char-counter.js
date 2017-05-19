@@ -1,7 +1,7 @@
 
 
 $(document).ready(function() {
-  $('.new-tweet form').on('keydown', 'textarea', function(event) {
+  $('.new-tweet form').on('keyup', 'textarea', function(event) {
     var count = $(this).parent().find('.counter');
     var counter = 140 - $(this).val().length;
     count.html(counter);
