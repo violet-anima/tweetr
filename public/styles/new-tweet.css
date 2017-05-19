@@ -21,7 +21,13 @@ Best event to detect the correct length of the input update the counter?
   border-radius: 10px;
   background-color: #eee;
   padding: 1em;
+  left-margin: 10em;
   margin: 2em;
+}
+
+.counter {
+  color: black;
+
 }
 
 .negative-chars-remaining {
