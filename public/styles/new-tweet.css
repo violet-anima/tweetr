@@ -1,22 +1,4 @@
-/*
 
-.new-tweet .h2 .container {
-
-  width: 500px;
-  top-margin: 10000px;
-
-
-
-}
-
-
-Using jQuery and an appropriate selector, register an event handler to the
-textarea element for the form inside of the .new-tweet section.
-
-Best event to detect the correct length of the input update the counter?
-
-
-*/
 
 .container {
   width: 100%
@@ -63,11 +45,3 @@ textarea {
   background-color: #000;
 }
 
-/*
-
-
-
-
-
-
-*/

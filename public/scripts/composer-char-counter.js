@@ -1,5 +1,4 @@
 
-
 $(document).ready(function() {
   $('.new-tweet form').on('keyup', 'textarea', function(event) {
     var count = $(this).parent().find('.counter');
@@ -12,6 +11,4 @@ $(document).ready(function() {
         }
   });
 });
-
-
 
