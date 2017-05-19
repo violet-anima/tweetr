@@ -14,7 +14,7 @@
 
 .tweeter header img, .tweeter header h3 {
   display: inline-flex;
-  color: darkblue;
+  color: #07505e;
   padding: 2px;
 }
 
@@ -34,7 +34,7 @@
   float: right;
   margin-right: 15px;
   margin-top: 10px;
-  color: darkblue;
+  color: grey;
 }
 .feets {
   border-top: 1px solid gray;

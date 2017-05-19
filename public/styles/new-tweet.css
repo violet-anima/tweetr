@@ -4,7 +4,7 @@
   width: 100%
 }
 .new-tweet {
-  color: darkblue;
+  color: #07505e;
   margin-top: 90px;
   border-radius: 10px;
   background-color: #eee;
@@ -41,7 +41,7 @@ textarea {
 .divider {
   margin-top: -20px;
   color: green;
-  height: 2px;
+  height: 1px;
   background-color: #000;
 }
 
