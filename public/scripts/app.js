@@ -96,7 +96,7 @@ $(function () {
         }
 
       }).done(function (tweet) {
-        /* Reset Counter */
+        /* Resets Counter */
         $('.counter').text(140);
         let newTweet = createdTweetElement(tweet);
 

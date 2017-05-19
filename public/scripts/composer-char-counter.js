@@ -6,9 +6,9 @@ $(document).ready(function() {
     count.html(counter);
       if(counter >= 0) {
         $(count).css('color', 'black');
-         } else {
+          } else {
            $(count).css('color', 'red');
-        }
+          }
   });
 });
 

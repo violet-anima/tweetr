@@ -3,6 +3,7 @@
 .container {
   width: 100%
 }
+
 .new-tweet {
   color: #07505e;
   margin-top: 90px;
@@ -21,7 +22,6 @@
 .new-tweet form {
   padding: 5px;
 }
-
 
 .negative-chars-remaining, .error {
   color: red;
