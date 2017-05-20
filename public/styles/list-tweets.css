@@ -42,5 +42,5 @@
 }
 
 .on-tweet {
-  border-color: #000;
+  border: 2px #000 solid;
 }
