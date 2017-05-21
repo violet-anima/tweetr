@@ -24,11 +24,16 @@ $(function () {
   // };
 
 
-
+  $("#tweet-form").keypress(function (e) {
+    if (e.which == 13 && !e.shiftKey) {
+      $(this).closest("form").submit();
+      e.preventDefault();
+      return false;
+    }
+  });
 
 
   function createdTweetElement(tweetData) {
-  console.log(tweetData);
     var name = tweetData.user.name;
     var avatars = tweetData.user.avatars.small;
     var handle = tweetData.user.handle;
@@ -71,14 +76,6 @@ $(function () {
 
   }
 
-
-  $("#tweet-form").keypress(function (e) {
-      if (e.which == 13 && !e.shiftKey) {
-        $(this).closest("form").submit();
-        e.preventDefault();
-        return false;
-      }
-    });
 
   $('#tweet-form').on('submit', function (event) {
     event.preventDefault();
