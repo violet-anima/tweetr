@@ -26,13 +26,19 @@ body {
   display: table-cell;
   vertical-align: middle;
 
-}
+  /* custom background pattern for awesomeness */
+  background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
+  radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
+  background-size:80px 80px;
+  background-position:0 0, 40px 40px;
+  }
 
 
 .container {
     margin-left: 70%;
     padding: 35px;
     background-color: #fff;
+
 }
 
 

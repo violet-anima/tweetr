@@ -6,16 +6,28 @@
   border-radius: 5px;
 }
 
+/*
 .tweeter header {
   width: 100%;
   background-color: #eee;
 }
+  The proceeding is a hacky way around
+  the compose button hiding tweets  */
+
+.tweeter header {
+    width: 100%;
+    background-color: #eee;
+    margin-top: inherit;
+    padding-top: 28px;
+}
+
 
 .tweeter header img, .tweeter header h3 {
   display: inline-flex;
   color: #07505e;
   padding: 2px;
 }
+
 
 .tweeter header img{
   border-radius: 5px;
@@ -32,7 +44,7 @@
 .handler {
   float: right;
   margin-right: 15px;
-  margin-top: 10px;
+  margin-top: 38px;
   color: grey;
 }
 .feets {
@@ -44,3 +56,55 @@
 .on-tweet {
   border: 2px #000 solid;
 }
+
+/* FOOTER */
+.feets {
+  border-top: 1px solid #E9E9E9;
+  padding: 5px;
+  padding-left: 8px;
+  font-size: 14px;
+  color: #506764;
+}
+
+.icons {
+  float:right;
+  margin: 2px;
+  cursor: pointer;
+}
+
+
+
+#compose-button {
+  cursor: pointer;
+  float: right;
+  opacity: 0.8;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 12px;
+  font-size: 21px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: #00a087;
+}
+
+
+#compose-button:hover {
+  cursor: pointer;
+  float: right;
+  opacity: 1;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 12px;
+  font-size: 21px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: #212b2a;
+}
+
+
+
+

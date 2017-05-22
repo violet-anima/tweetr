@@ -61,6 +61,13 @@ $(function () {
   }
 
 
+ $('#compose-button').click(function() {
+    $('.new-tweet').slideToggle(990, function() {
+      $('#new-tweet-input').focus();
+    });
+  });
+
+
   $('#tweet-form').on('submit', function (event) {
     event.preventDefault();
     var input = $('#new-tweet-input').val();
