@@ -6,13 +6,6 @@
   border-radius: 5px;
 }
 
-/*
-.tweeter header {
-  width: 100%;
-  background-color: #eee;
-}
-  The proceeding is a hacky way around
-  the compose button hiding tweets  */
 
 .tweeter header {
     width: 100%;
@@ -47,6 +40,7 @@
   margin-top: 38px;
   color: grey;
 }
+
 .feets {
   border-top: 1px solid gray;
   padding: 10px;
@@ -104,7 +98,5 @@
   padding-right: 8px;
   color: #212b2a;
 }
-
-
 
 

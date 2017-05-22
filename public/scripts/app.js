@@ -47,6 +47,7 @@ $(function () {
     tweets.forEach(function (tweet) {
       let $tweet = createdTweetElement(tweet);
 
+/* highlights old tweets when mouse is hovering */
       $($tweet).on('mouseover', function (event) {
         $(this).addClass('on-tweet');
       });
@@ -115,9 +116,6 @@ $(function () {
   }
 
   loadTweets();
-
-
-
 
 }); //end of $ready
 
